@@ -46,3 +46,20 @@ int[] ArrayAlQuadrato(int[] array)
     return nuovoArray;
 }
 Console.WriteLine("");
+
+
+// Quarta funzione
+Console.WriteLine("QUARTA FUNZIONE ");
+int[] Sum = { 1, 2, 3, 4, 5 };
+Somma(Sum);
+int Somma(int[] Sum)
+{
+    int sum = 0;
+    foreach (int num in Sum)
+    {
+        sum += num;
+    }
+    Console.WriteLine($"La somma é {sum}.");
+    return sum;
+}
+Console.WriteLine("");
